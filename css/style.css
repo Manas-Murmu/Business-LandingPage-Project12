@@ -1,0 +1,260 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Orbitron:wght@800&family=Oswald:wght@200;500&family=Poppins:ital,wght@0,400;0,700;0,800;1,600&family=Sansita+Swashed&display=swap");
+* {
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+body {
+  color: #ffffff;
+  background-color: #636c79;
+}
+.container {
+  margin: 2% 5%;
+}
+.logo {
+  width: 120px;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.list {
+  list-style-type: none;
+  display: flex;
+  gap: 30px;
+  margin-left: 250px;
+}
+.list-item {
+  font-family: "Montserrat", sans-serif;
+  color: #ffffff;
+}
+
+.list-item-active {
+  list-style-type: none;
+  color: #fdfdfd;
+  border: 2px solid #b9bebe;
+  border-radius: 10px;
+  padding: 10px 20px;
+}
+
+.hero-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  justify-content: space-between;
+}
+.hero {
+  margin-top: 30px;
+}
+.hero img {
+  padding: 20px 50px;
+  width: 500px;
+  height: 450px;
+}
+.hero-body h1 {
+  font-size: 50px;
+}
+.hero-body p {
+  margin-top: 10px;
+  font-size: 18px;
+  color: #d4d4d4;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.email-section {
+  width: 430px;
+  height: 50px;
+  background-color: white;
+  color: black;
+  margin-top: 30px;
+}
+.email-section i {
+  margin-left: 15px;
+}
+.btn {
+  cursor: pointer;
+  border: none;
+  color: white;
+  background: #84b9a0;
+  padding: 13px 38px;
+}
+input {
+  width: 250px;
+  border: none;
+  padding: 16px 20px;
+}
+
+/* ******************* */
+
+.Info-section {
+  background-color: #d4d4d4;
+  color: black;
+  margin-top: 20px;
+  padding-top: 30px;
+}
+
+.target-container {
+  margin: 2% 5%;
+}
+
+.target-heading h1 {
+  margin-top: 50px;
+  text-align: center;
+  font-size: 40px;
+}
+.target-stats {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 100px;
+}
+.stats h1 {
+  font-weight: 900;
+  font-size: 40px;
+}
+.stats {
+  text-align: center;
+}
+.target-image img {
+  object-fit: cover;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  height: 500px;
+  object-position: 100% 0;
+}
+.website {
+  margin: 2% 5%;
+}
+.website > h1 {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 40px;
+}
+.feature-section-body {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 50px;
+}
+.Left-Section {
+  margin-top: 80px;
+}
+.Left-Section > h1 {
+  font-size: 40px;
+}
+.Left-Section > p {
+  margin-top: 10px;
+  font-size: 20px;
+  color: #636c79;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.Left-Section > button {
+  margin-top: 20px;
+}
+.Right-section img {
+  width: 100%;
+  height: 400px;
+}
+
+.marketing img {
+  object-fit: cover;
+  display: block;
+  width: 90%;
+  height: 450px;
+  object-position: 100% 0;
+}
+.marketing-data {
+  margin-top: 60px;
+}
+
+.marketing-data h1 {
+  font-size: 40px;
+}
+.marketing-data p {
+  margin-top: 10px;
+  font-size: 20px;
+  color: #636c79;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.marketing-data button {
+  margin-top: 20px;
+}
+.teams {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.teams h1 {
+  font-size: 40px;
+}
+.teams p {
+  font-size: 15px;
+  font-size: 20px;
+  color: #636c79;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.teams-card {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 50px;
+  justify-content: space-between;
+  align-items: center;
+}
+.teams-card img {
+  width: 100%;
+  object-fit: cover;
+  display: block;
+  width: 100%;
+  height: 500px;
+}
+.info {
+  margin-top: 20px;
+}
+.card-items p {
+  margin-top: 10px;
+  font-size: 15px;
+  color: #636c79;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.btn-container {
+  height: 100px;
+  text-align: center;
+}
+.footer-outer {
+  background-color: #10181d;
+}
+.footerTop {
+  margin: 2% 5%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  color: #ffffff;
+}
+.logos ul {
+  display: flex;
+  float: right;
+  list-style-type: none;
+}
+.logos li {
+  padding: 15px;
+}
+.footer-bottom {
+  height: 250px;
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  color: white;
+  margin-top: 50px;
+  margin-bottom: -50px;
+}
+.footer-Menu ul {
+  list-style-type: none;
+}
+.footer-Menu h2 {
+  font-size: 20px;
+}
+.footer-Menu li {
+  margin-top: 20px;
+  font-size: 15px;
+  color: #636c79;
+}
