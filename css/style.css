@@ -276,10 +276,11 @@ input {
     display: none;
   }
   .hero img {
+    padding: 0;
     width: 100%;
   }
   .email-section {
-    width: 300px;
+    width: 350px;
   }
   .email-section button {
     float: right;
@@ -306,7 +307,7 @@ input {
   .logos ul {
     margin-top: 15px;
     float: left;
-    margin-left: 60px;
+    margin-left: 50px;
   }
 }
 
