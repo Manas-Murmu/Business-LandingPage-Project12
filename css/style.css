@@ -24,7 +24,7 @@ body {
   list-style-type: none;
   display: flex;
   gap: 30px;
-  margin-left: 250px;
+  margin-left: 300px;
 }
 .list-item {
   font-family: "Montserrat", sans-serif;
@@ -240,7 +240,8 @@ input {
   padding: 15px;
 }
 .footer-bottom {
-  height: 250px;
+  /* height: 250px; */
+  padding-bottom: 50px;
   display: grid;
   grid-template-columns: auto auto auto auto auto;
   color: white;
@@ -257,4 +258,66 @@ input {
   margin-top: 20px;
   font-size: 15px;
   color: #636c79;
+}
+
+/* ---------------------------------------------------------------------- */
+
+@media (max-width: 768px) {
+  .hero-section,
+  .target-stats,
+  .feature-section-body,
+  .teams,
+  .teams-card,
+  .footerTop,
+  .footer-bottom {
+    grid-template-columns: 1fr;
+  }
+  .list {
+    display: none;
+  }
+  .hero img {
+    width: 100%;
+  }
+  .email-section {
+    width: 300px;
+  }
+  .email-section button {
+    float: right;
+    padding: 17px 30px;
+    position: absolute;
+    right: 35px;
+  }
+  .hero-body h1 {
+    font-size: 40px;
+  }
+  .target-stats {
+    gap: 30px;
+  }
+  .feature-section-body {
+    gap: 20px;
+  }
+  .footerTop {
+    margin: 2% 2%;
+    text-align: center;
+  }
+  .logoPart img {
+    width: 150px;
+  }
+  .logos ul {
+    margin-top: 15px;
+    float: left;
+    margin-left: 60px;
+  }
+}
+
+@media (max-width: 768px) {
+  /* body {
+    text-align: center;
+    background-color: black;
+  } */
+
+  .footer-Menu {
+    text-align: center;
+    margin-bottom: 40px;
+  }
 }
