@@ -286,7 +286,7 @@ input {
     float: right;
     padding: 17px 30px;
     position: absolute;
-    right: 35px;
+    right: 30px;
   }
   .hero-body h1 {
     font-size: 40px;
@@ -320,5 +320,23 @@ input {
   .footer-Menu {
     text-align: center;
     margin-bottom: 40px;
+  }
+  .hero-body {
+    text-align: center;
+  }
+  .hero-body p {
+    font-size: 15px;
+  }
+  br {
+    display: none;
+  }
+  .Info-section {
+    text-align: center;
+  }
+  .right-paragraph p {
+    margin-bottom: 20px;
+  }
+  .teams {
+    margin-top: 50px;
   }
 }
